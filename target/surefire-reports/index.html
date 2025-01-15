@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-XaltsTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">XaltsTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-XaltsTestSuite" class="navigator-link ">
+                    <span>C:\Users\User\eclipse-workspace\XaltsAssignment-NandanTD\src\test\resources\XaltsTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-XaltsTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-XaltsTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-XaltsTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-XaltsTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-XaltsTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-XaltsTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-XaltsTestSuite" class="hide-methods passed suite-XaltsTestSuite"> (hide)</a> <!-- hide-methods passed suite-XaltsTestSuite -->
+                      <a href="#" panel-name="suite-XaltsTestSuite" class="show-methods passed suite-XaltsTestSuite"> (show)</a> <!-- show-methods passed suite-XaltsTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-XaltsTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XaltsTestSuite" title="Testcases.TC_004_VerifyUseriaAbleToAddallNodes" class="method navigator-link" hash-for-method="AddNodestolist">AddNodestolist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XaltsTestSuite" title="Testcases.TC_002_SignIntoApplication" class="method navigator-link" hash-for-method="SignInToApplication">SignInToApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XaltsTestSuite" title="Testcases.TC_003_SignOut" class="method navigator-link" hash-for-method="SignOut">SignOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XaltsTestSuite" title="Testcases.TC_005_AddWalletAddressesAndSubmit" class="method navigator-link" hash-for-method="TestWalletAddress">TestWalletAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XaltsTestSuite" title="Testcases.TC_006_CreateNewPrivateBlockchain" class="method navigator-link" hash-for-method="createaNewblockchain">createaNewblockchain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XaltsTestSuite" title="Testcases.TC_001_VerifyUserIsAbleToSignUpThePage" class="method navigator-link" hash-for-method="signUptopage">signUptopage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-XaltsTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-XaltsTestSuite" class="panel XaltsTestSuite">
+          <div class="suite-XaltsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.TC_005_AddWalletAddressesAndSubmit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestWalletAddress">
+                  </a> <!-- TestWalletAddress -->
+                  <span class="method-name">TestWalletAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XaltsTestSuite-class-passed -->
+          <div class="suite-XaltsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.TC_002_SignIntoApplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInToApplication">
+                  </a> <!-- SignInToApplication -->
+                  <span class="method-name">SignInToApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XaltsTestSuite-class-passed -->
+          <div class="suite-XaltsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.TC_001_VerifyUserIsAbleToSignUpThePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUptopage">
+                  </a> <!-- signUptopage -->
+                  <span class="method-name">signUptopage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XaltsTestSuite-class-passed -->
+          <div class="suite-XaltsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.TC_006_CreateNewPrivateBlockchain</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createaNewblockchain">
+                  </a> <!-- createaNewblockchain -->
+                  <span class="method-name">createaNewblockchain</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XaltsTestSuite-class-passed -->
+          <div class="suite-XaltsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.TC_003_SignOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignOut">
+                  </a> <!-- SignOut -->
+                  <span class="method-name">SignOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XaltsTestSuite-class-passed -->
+          <div class="suite-XaltsTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.TC_004_VerifyUseriaAbleToAddallNodes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddNodestolist">
+                  </a> <!-- AddNodestolist -->
+                  <span class="method-name">AddNodestolist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XaltsTestSuite-class-passed -->
+        </div> <!-- panel XaltsTestSuite -->
+        <div panel-name="test-xml-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\eclipse-workspace\XaltsAssignment-NandanTD\src\test\resources\XaltsTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;XaltsTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;GenericLibrary.ListenersMethods&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.TC_001_VerifyUserIsAbleToSignUpThePage&quot;/&gt;
+      &lt;class name=&quot;Testcases.TC_002_SignIntoApplication&quot;/&gt;
+      &lt;class name=&quot;Testcases.TC_003_SignOut&quot;/&gt;
+      &lt;class name=&quot;Testcases.TC_004_VerifyUseriaAbleToAddallNodes&quot;/&gt;
+      &lt;class name=&quot;Testcases.TC_005_AddWalletAddressesAndSubmit&quot;/&gt;
+      &lt;class name=&quot;Testcases.TC_006_CreateNewPrivateBlockchain&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- XaltsTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for XaltsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for XaltsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for XaltsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_XaltsTestSuite');
+function tableData_XaltsTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestWalletAddress')
+data.setCell(0, 2, 'Testcases.TC_005_AddWalletAddressesAndSubmit')
+data.setCell(0, 3, 77494);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createaNewblockchain')
+data.setCell(1, 2, 'Testcases.TC_006_CreateNewPrivateBlockchain')
+data.setCell(1, 3, 45401);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddNodestolist')
+data.setCell(2, 2, 'Testcases.TC_004_VerifyUseriaAbleToAddallNodes')
+data.setCell(2, 3, 43798);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signUptopage')
+data.setCell(3, 2, 'Testcases.TC_001_VerifyUserIsAbleToSignUpThePage')
+data.setCell(3, 3, 4406);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SignOut')
+data.setCell(4, 2, 'Testcases.TC_003_SignOut')
+data.setCell(4, 3, 3730);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SignInToApplication')
+data.setCell(5, 2, 'Testcases.TC_002_SignIntoApplication')
+data.setCell(5, 3, 3646);
+window.suiteTableData['XaltsTestSuite']= { tableData: data, tableDiv: 'times-div-XaltsTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-XaltsTestSuite">
+              </div> <!-- times-div-XaltsTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for XaltsTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-XaltsTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.TC_001_VerifyUserIsAbleToSignUpThePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitializeDrivers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchURL</span>
+                <span class="method-start">4102 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signUptopage</span>
+                <span class="method-start">4517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitallBrowsers</span>
+                <span class="method-start">8926 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.TC_002_SignIntoApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitializeDrivers</span>
+                <span class="method-start">9210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchURL</span>
+                <span class="method-start">12005 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SignInToApplication</span>
+                <span class="method-start">12249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitallBrowsers</span>
+                <span class="method-start">15895 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.TC_003_SignOut</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitializeDrivers</span>
+                <span class="method-start">16148 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchURL</span>
+                <span class="method-start">18440 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SignOut</span>
+                <span class="method-start">18829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitallBrowsers</span>
+                <span class="method-start">22562 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.TC_004_VerifyUseriaAbleToAddallNodes</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitializeDrivers</span>
+                <span class="method-start">22781 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchURL</span>
+                <span class="method-start">25076 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddNodestolist</span>
+                <span class="method-start">25239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitallBrowsers</span>
+                <span class="method-start">69037 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.TC_005_AddWalletAddressesAndSubmit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitializeDrivers</span>
+                <span class="method-start">69412 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchURL</span>
+                <span class="method-start">71820 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestWalletAddress</span>
+                <span class="method-start">72225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitallBrowsers</span>
+                <span class="method-start">149719 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.TC_006_CreateNewPrivateBlockchain</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitializeDrivers</span>
+                <span class="method-start">150072 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchURL</span>
+                <span class="method-start">152499 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createaNewblockchain</span>
+                <span class="method-start">152844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitallBrowsers</span>
+                <span class="method-start">198245 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

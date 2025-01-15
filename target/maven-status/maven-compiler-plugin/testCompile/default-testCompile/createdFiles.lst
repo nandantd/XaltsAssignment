@@ -1,0 +1,6 @@
+Testcases\TC_006_CreateNewPrivateBlockchain.class
+Testcases\TC_003_SignOut.class
+Testcases\TC_001_VerifyUserIsAbleToSignUpThePage.class
+Testcases\TC_002_SignIntoApplication.class
+Testcases\TC_004_VerifyUseriaAbleToAddallNodes.class
+Testcases\TC_005_AddWalletAddressesAndSubmit.class

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-15T13:27:58 IST" name="XaltsTestSuite" finished-at="2025-01-15T13:30:45 IST" duration-ms="166414">
+    <groups>
+    </groups>
+    <test started-at="2025-01-15T13:27:58 IST" name="Test" finished-at="2025-01-15T13:30:45 IST" duration-ms="166414">
+      <class name="Testcases.TC_005_AddWalletAddressesAndSubmit">
+        <test-method is-config="true" signature="InitializeDrivers()[pri:0, instance:Testcases.TC_005_AddWalletAddressesAndSubmit@4eb386df]" started-at="2025-01-15T13:28:51 IST" name="InitializeDrivers" finished-at="2025-01-15T13:28:52 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDrivers -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcases.TC_005_AddWalletAddressesAndSubmit@4eb386df]" started-at="2025-01-15T13:28:52 IST" name="LaunchURL" finished-at="2025-01-15T13:28:53 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="TestWalletAddress()[pri:0, instance:Testcases.TC_005_AddWalletAddressesAndSubmit@4eb386df]" started-at="2025-01-15T13:28:53 IST" name="TestWalletAddress" finished-at="2025-01-15T13:30:03 IST" duration-ms="70601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWalletAddress -->
+        <test-method is-config="true" signature="QuitallBrowsers()[pri:0, instance:Testcases.TC_005_AddWalletAddressesAndSubmit@4eb386df]" started-at="2025-01-15T13:30:03 IST" name="QuitallBrowsers" finished-at="2025-01-15T13:30:04 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitallBrowsers -->
+      </class> <!-- Testcases.TC_005_AddWalletAddressesAndSubmit -->
+      <class name="Testcases.TC_003_SignOut">
+        <test-method is-config="true" signature="InitializeDrivers()[pri:0, instance:Testcases.TC_003_SignOut@6a55299e]" started-at="2025-01-15T13:28:07 IST" name="InitializeDrivers" finished-at="2025-01-15T13:28:08 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDrivers -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcases.TC_003_SignOut@6a55299e]" started-at="2025-01-15T13:28:08 IST" name="LaunchURL" finished-at="2025-01-15T13:28:08 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="SignOut()[pri:0, instance:Testcases.TC_003_SignOut@6a55299e]" started-at="2025-01-15T13:28:08 IST" name="SignOut" finished-at="2025-01-15T13:28:10 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+        <test-method is-config="true" signature="QuitallBrowsers()[pri:0, instance:Testcases.TC_003_SignOut@6a55299e]" started-at="2025-01-15T13:28:10 IST" name="QuitallBrowsers" finished-at="2025-01-15T13:28:10 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitallBrowsers -->
+      </class> <!-- Testcases.TC_003_SignOut -->
+      <class name="Testcases.TC_002_SignIntoApplication">
+        <test-method is-config="true" signature="InitializeDrivers()[pri:0, instance:Testcases.TC_002_SignIntoApplication@51acdf2e]" started-at="2025-01-15T13:28:03 IST" name="InitializeDrivers" finished-at="2025-01-15T13:28:04 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDrivers -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcases.TC_002_SignIntoApplication@51acdf2e]" started-at="2025-01-15T13:28:04 IST" name="LaunchURL" finished-at="2025-01-15T13:28:04 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="SignInToApplication()[pri:0, instance:Testcases.TC_002_SignIntoApplication@51acdf2e]" started-at="2025-01-15T13:28:04 IST" name="SignInToApplication" finished-at="2025-01-15T13:28:07 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInToApplication -->
+        <test-method is-config="true" signature="QuitallBrowsers()[pri:0, instance:Testcases.TC_002_SignIntoApplication@51acdf2e]" started-at="2025-01-15T13:28:07 IST" name="QuitallBrowsers" finished-at="2025-01-15T13:28:07 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitallBrowsers -->
+      </class> <!-- Testcases.TC_002_SignIntoApplication -->
+      <class name="Testcases.TC_001_VerifyUserIsAbleToSignUpThePage">
+        <test-method is-config="true" signature="InitializeDrivers()[pri:0, instance:Testcases.TC_001_VerifyUserIsAbleToSignUpThePage@16fdec90]" started-at="2025-01-15T13:27:58 IST" name="InitializeDrivers" finished-at="2025-01-15T13:28:00 IST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDrivers -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcases.TC_001_VerifyUserIsAbleToSignUpThePage@16fdec90]" started-at="2025-01-15T13:28:00 IST" name="LaunchURL" finished-at="2025-01-15T13:28:00 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="signUptopage()[pri:0, instance:Testcases.TC_001_VerifyUserIsAbleToSignUpThePage@16fdec90]" started-at="2025-01-15T13:28:00 IST" name="signUptopage" finished-at="2025-01-15T13:28:03 IST" duration-ms="2626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUptopage -->
+        <test-method is-config="true" signature="QuitallBrowsers()[pri:0, instance:Testcases.TC_001_VerifyUserIsAbleToSignUpThePage@16fdec90]" started-at="2025-01-15T13:28:03 IST" name="QuitallBrowsers" finished-at="2025-01-15T13:28:03 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitallBrowsers -->
+      </class> <!-- Testcases.TC_001_VerifyUserIsAbleToSignUpThePage -->
+      <class name="Testcases.TC_004_VerifyUseriaAbleToAddallNodes">
+        <test-method is-config="true" signature="InitializeDrivers()[pri:0, instance:Testcases.TC_004_VerifyUseriaAbleToAddallNodes@2f1de2d6]" started-at="2025-01-15T13:28:10 IST" name="InitializeDrivers" finished-at="2025-01-15T13:28:12 IST" duration-ms="1243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDrivers -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcases.TC_004_VerifyUseriaAbleToAddallNodes@2f1de2d6]" started-at="2025-01-15T13:28:12 IST" name="LaunchURL" finished-at="2025-01-15T13:28:12 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="AddNodestolist()[pri:0, instance:Testcases.TC_004_VerifyUseriaAbleToAddallNodes@2f1de2d6]" started-at="2025-01-15T13:28:12 IST" name="AddNodestolist" finished-at="2025-01-15T13:28:51 IST" duration-ms="39553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNodestolist -->
+        <test-method is-config="true" signature="QuitallBrowsers()[pri:0, instance:Testcases.TC_004_VerifyUseriaAbleToAddallNodes@2f1de2d6]" started-at="2025-01-15T13:28:51 IST" name="QuitallBrowsers" finished-at="2025-01-15T13:28:51 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitallBrowsers -->
+      </class> <!-- Testcases.TC_004_VerifyUseriaAbleToAddallNodes -->
+      <class name="Testcases.TC_006_CreateNewPrivateBlockchain">
+        <test-method is-config="true" signature="InitializeDrivers()[pri:0, instance:Testcases.TC_006_CreateNewPrivateBlockchain@79517588]" started-at="2025-01-15T13:30:04 IST" name="InitializeDrivers" finished-at="2025-01-15T13:30:05 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeDrivers -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Testcases.TC_006_CreateNewPrivateBlockchain@79517588]" started-at="2025-01-15T13:30:05 IST" name="LaunchURL" finished-at="2025-01-15T13:30:05 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="createaNewblockchain()[pri:0, instance:Testcases.TC_006_CreateNewPrivateBlockchain@79517588]" started-at="2025-01-15T13:30:05 IST" name="createaNewblockchain" finished-at="2025-01-15T13:30:45 IST" duration-ms="39536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaNewblockchain -->
+        <test-method is-config="true" signature="QuitallBrowsers()[pri:0, instance:Testcases.TC_006_CreateNewPrivateBlockchain@79517588]" started-at="2025-01-15T13:30:45 IST" name="QuitallBrowsers" finished-at="2025-01-15T13:30:45 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitallBrowsers -->
+      </class> <!-- Testcases.TC_006_CreateNewPrivateBlockchain -->
+    </test> <!-- Test -->
+  </suite> <!-- XaltsTestSuite -->
+</testng-results>
